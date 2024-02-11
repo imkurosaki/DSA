@@ -3,7 +3,7 @@
 class Solution:
     @staticmethod
     def reverse(x: int) -> int:
-        MIN_INT = -2**31;
+        MIN_INT = -2** 31;
         MAX_INT = 2**31 - 1;
         reverseNumber = 0;
 
@@ -17,6 +17,6 @@ class Solution:
         
         return reverseNumber;
 
-n = Solution.reverse(1534236469)
+n = Solution.reverse(1_563_847_512)
 print(n)
 
